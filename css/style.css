@@ -1,0 +1,59 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+
+  font: 62.5% "Roboto", sans-serif;
+
+}
+
+
+nav {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  max-height: 122px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 72px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+nav li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  
+  gap: 32px;
+  
+}
+
+nav li a{
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  color: #b0b0b0;
+}
+
+nav li a:hover{
+  color: #FFD700;
+}
+
+nav li a:active{
+  color: blue;
+}
+
+nav li a:focus{
+  color: white;
+}
+
+
